@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmuda Mamson | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for clean icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Background Overlay -->
+    <div class="bg-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">MM</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Mahmuda Mamson</span></h1>
+            <p>Building clean, functional, and scalable applications from the ground up.</p>
+            <a href="#about" class="btn">Get to Know Me</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-img">
+                <img src="IMG_0291" alt="Mahmuda Mamson">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am a 200-level Software Engineering student at Northwest University, Kano. My path into development isn't just about passing classes; it's about the puzzle of turning logic into working applications that people can interact with.</p>
+                <p>Right now, I spend most of my time coding, breaking things, and figuring out how to fix them. I thrive on the challenge of full-stack concepts, balancing the layout and responsiveness of the frontend with the structure and logic of the backend.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>What I Work With</h2>
+            <div class="skills-grid">
+                <!-- Swapped standard icons for clean typography/badge styling as requested -->
+                <div class="skill-card">
+                    <span class="skill-tag">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Writing clean, asynchronous logic and manipulating the DOM smoothly.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-tag">HTML & CSS</span>
+                    <h3>Core Web Architecture</h3>
+                    <p>Crafting semantic layouts and responsive interfaces without relying blindly on frameworks.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-tag">Node</span>
+                    <h3>Node.js</h3>
+                    <p>Building server-side applications, routing, and handling basic backend logic.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-tag">Tools</span>
+                    <h3>Deployment & Ecosystem</h3>
+                    <p>Managing code versions with GitHub and deploying live projects to Vercel, Netlify, and Render.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Developer Portfolio</h3>
+                    <p>My very first live project. Built entirely from scratch to showcase my skills, layout capabilities, and deployment workflow using HTML, CSS, and vanilla JS.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Source</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container cert-container">
+            <h2>Certifications</h2>
+            <div class="cert-card">
+                <img src="Mamson1122" alt="freeCodeCamp Responsive Web Design Certification" class="cert-img">
+                <div class="cert-info">
+                    <h3>Responsive Web Design</h3>
+                    <p class="issuer">freeCodeCamp</p>
+                    <p>An intensive curriculum covering semantic HTML, CSS Flexbox, Grid, and responsive principles. Verified my ability to build accessible interfaces across multiple device sizes.</p>
+                    <a href="https://www.freecodecamp.org/certification/mamson2002/responsive-web-design" target="_blank" class="btn-sm">Verify Credential</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <h2>Let's Connect</h2>
+            <p>Whether you want to discuss a project, talk tech, or just connect, feel free to reach out.</p>
+            <div class="contact-methods">
+                <a href="mailto:mahmudamamson@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i> mahmudamamson@gmail.com
+                </a>
+                <a href="tel:+2348149093976" class="contact-item">
+                    <i class="fas fa-phone"></i> +234 814 909 3976
+                </a>
+            </div>
+            <div class="social-footer">
+                <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
